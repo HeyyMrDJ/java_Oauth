@@ -35,5 +35,6 @@ Failed to make non-authenticated request
 ```
 - Hit localhost:8080/success to prove it works
 ```console
+curl localhost:8080/success
 This is a protected endpoint. You're authenticated!
 ```
