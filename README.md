@@ -16,12 +16,14 @@ Template for Java Springboot using Oauth
 export AZ_CLIENT_ID=REDACTED
 export AZ_CLIENT_SECRET=REDACTED
 export AZ_TENANT=REDACTED
+cd client
 mvn clean install -Dmaven.test.skip=true
 mvn spring-boot:run -Dmaven.test.skip=true
 ```
 - In another terminal export the tenant again, then install and run
 ```console
 export AZ_TENANT=REDACTED
+cd resource
 mvn clean install -Dmaven.test.skip=true
 mvn spring-boot:run -Dmaven.test.skip=true
 ```
