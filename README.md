@@ -8,6 +8,10 @@ Template for Java Springboot using Oauth
 - Click on App Registrations
 - New Registration
 - Name it and select Register
+- Naviate to manifests and set the following. This forces v2 tokens
+```console
+"accessTokenAcceptedVersion": 2,
+```
 - Navigate to Certificates and Secrets then to Client Secrets
 - Create New, name it, and selet 6 months TTL
 - Take note of Tenant ID, Client ID, And Secet
